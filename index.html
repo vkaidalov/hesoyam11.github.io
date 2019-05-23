@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Personal Page of Vadym Kaidalov</title>
-    <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
   </head>
   <body>
     <h1>Personal Page of Vadym Kaidalov</h1>
@@ -13,9 +13,14 @@
     alt="A portrait of Vadym"
     width="460" height="460"
     >
-    <p>Welcome to the Personal Page of Vadym Kaidalov.</p>
-    <p>I am a web developer.</p>
-    <p>My favorite language is <strong>Python</strong>, also I use <strong>JavaScript</strong> a lot.</p>
+    <p>Hello! My name is Vadym. I am a software developer.</p>
+    <p>My best-loved language is <strong>Python</strong>, also I use <strong>JavaScript</strong> a lot.</p>
     <p><a href="https://github.com/hesoyam11">My Github Page</a></p>
+    <h2>"Guess The Number" game as a present for you:</h2>
+    <p id="gameStatus">Make a guess!</p>
+    <label>Your guess (from 1 to 100):</label>
+    <input id="guessInput" type="number" min="1" max="100" value="50">
+    <button id="guessButton">Guess</button>
+    <script src="scripts/guess-the-number-game.js"></script>
   </body>
 </html>
